@@ -12,11 +12,8 @@ class HomeController < ApplicationController
     url = params[:url]
     throw(:abort) if url.nil?
 
-    # We don't want to be an open relay. Assert for now the host we're receiving this
-    # request from
-    if !['127.0.0.1', 'localhost'].include?(request.host) || request.host.end_with?('cloudapps.digital')
-      return render nothing: true, status: 404
-    end
+    # TODO: We don't want to be an open relay. We must ensure this
+    # request is coming from a page we served.
 
     url = correct_url(url)
 

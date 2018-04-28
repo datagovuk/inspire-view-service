@@ -17,4 +17,6 @@ http://127.0.0.1:3000/?url=http%3A%2F%2Fenvironment.data.gov.uk%2Fds%2Fwms%3FSER
 
 ## What is left to fix it
 
+Stop this being an open proxy...
+
 Currently the preview_getinfo endpoint is not implemented, which means that it is probably not possible to get feature information, but the preview itself works.
