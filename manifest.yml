@@ -1,0 +1,5 @@
+---
+applications:
+  - name: inspire-view-service
+    memory: 1G
+    buildpack: ruby_buildpack
