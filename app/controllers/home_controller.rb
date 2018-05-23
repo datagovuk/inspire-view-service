@@ -66,7 +66,6 @@ class HomeController < ApplicationController
 
     begin
       doc = Nokogiri::XML(open(base_wms_url))
-      p doc
       render xml: doc
     rescue Exception => e
       render nothing: true, status: :bad_request
