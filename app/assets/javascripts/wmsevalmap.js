@@ -1879,8 +1879,8 @@ function buildUI(urls){
             loader: new os.WMSCapabilitiesLoader({
                 
                 // COI
-                url: 'preview_proxy?url=' + urlWmsSuffix, 
-                
+                url: 'data/preview_proxy?url=' + urlWmsSuffix,
+
                 // Ordnance Survey
                 //url: 'preview_proxy?url=' + urlWmsSuffix, 
                 layerOptions: {
