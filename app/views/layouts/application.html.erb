@@ -20,16 +20,11 @@
 
     <%= stylesheet_link_tag "https://osinspiremappingprod.ordnancesurvey.co.uk/libraries/ext-3.4.0/resources/css/ext-all.css" %>
     <%= stylesheet_link_tag "https://osinspiremappingprod.ordnancesurvey.co.uk/libraries/ext-3.4.0/resources/css/xtheme-gray.css" %>
-    <script type="text/javascript" src="//osinspiremappingprod.ordnancesurvey.co.uk/libraries/ext-3.4.0/adapter/ext/ext-base.js">
-    </script>
-    <script type="text/javascript" src="//osinspiremappingprod.ordnancesurvey.co.uk/libraries/ext-3.4.0/ext-all.js">
-        </script>
-    <script type="text/javascript" src="//osinspiremappingprod.ordnancesurvey.co.uk/libraries/openlayers-openlayers-85b836d/OpenLayers.js">
-    </script>
-    <script type="text/javascript" src="//osinspiremappingprod.ordnancesurvey.co.uk/libraries/proj4js-1.0.3/lib/proj4js.js">
-    </script>
-    <script type="text/javascript" src="//osinspiremappingprod.ordnancesurvey.co.uk/libraries/GeoExt/GeoExt.js">
-    </script>
+    <%= javascript_include_tag "https://osinspiremappingprod.ordnancesurvey.co.uk/libraries/ext-3.4.0/adapter/ext/ext-base.js" %>
+    <%= javascript_include_tag "https://osinspiremappingprod.ordnancesurvey.co.uk/libraries/ext-3.4.0/ext-all.js" %>
+    <%= javascript_include_tag "https://osinspiremappingprod.ordnancesurvey.co.uk/libraries/openlayers-openlayers-85b836d/OpenLayers.js" %>
+    <%= javascript_include_tag "https://osinspiremappingprod.ordnancesurvey.co.uk/libraries/proj4js-1.0.3/lib/proj4js.js" %>
+    <%= javascript_include_tag "https://osinspiremappingprod.ordnancesurvey.co.uk/libraries/GeoExt/GeoExt.js" %>
     <style type="text/css">
       /* Make sure we don't break the tiles in the map */
       img { max-width: inherit; }
@@ -44,7 +39,7 @@
       var CKANEXT_OS_WMS_URL = "//osinspiremappingprod.ordnancesurvey.co.uk/geoserver/wms?key=<%= @apikey %>";
       var CKANEXT_OS_WFS_URL = "/geoserver/wfs?key=<%= @apikey %>";
     </script>
-   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <%= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" %>
     <script>
       //<![CDATA[
       window.jQuery || document.write('<script src="/assets/js/jquery-1.8.3.min.js"><\/script>')
@@ -53,7 +48,6 @@
     <script type="text/javascript">
       document.getElementsByTagName('html')[0].className += ' js-enabled';
     </script>
-
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
