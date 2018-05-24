@@ -134,7 +134,7 @@ div.olControlLoadingPanel {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-	background-image: url(resources/loading-transparent.gif);
+	background-image: url('loading-transparent.gif');
     background-color: #D2E0F2;
     background-position: 10px 50%;
     background-repeat: no-repeat;
@@ -163,17 +163,17 @@ display: none;
 }
 
 .failedwms-icon {
-    background: url('resources/deadwms.gif') no-repeat;
+    background: url('deadwms.gif') no-repeat;
     height: 16px;
     width: 16px;
 }
 
 .gx-activelayer-drag-icon {
-    background: url('resources/drag.png') no-repeat !important;
+    background: url('drag.png') no-repeat !important;
     width: 16px !important;
     height: 16px !important;
 	/* margin: 0 !important;
-    background-image: url('resources/drag.png') !important;
+    background-image: image-url('drag.png') !important;
     width: 16px !important;
     height: 16px !important;
 	*/
@@ -214,7 +214,7 @@ table.popup td {
 	top: 5px;
 	left: 5px;
 	position: absolute;
-	background: url('resources/previous.png');
+	background: url('previous.png');
 	width: 24px;
 	height: 22px;
 }
@@ -223,7 +223,7 @@ table.popup td {
 	top: 5px;
 	left: 57px;
 	position: absolute;
-	background: url('resources/next.png');
+	background: url('next.png');
 	width: 24px;
 	height: 22px;
 }
@@ -232,7 +232,7 @@ table.popup td {
 	top: 5px;
 	left: 31px;
 	position: absolute;
-	background: url('resources/full-extent.png');
+	background: url('full-extent.png');
 	width: 24px;
 	height: 22px;
 }

@@ -215,7 +215,7 @@ OpenLayers control styles overwrites style.css (default ol style sheet)*/
 	top: 5px;
 	left: 5px;
 	position: absolute;
-	background: url('resources/previous.png');
+	background: url('previous.png');
 	width: 24px;
 	height: 22px;
 }
@@ -224,7 +224,7 @@ OpenLayers control styles overwrites style.css (default ol style sheet)*/
 	top: 5px;
 	left: 53px;
 	position: absolute;
-	background: url('resources/next.png');
+	background: url('next.png');
 	width: 24px;
 	height: 22px;
 }
@@ -233,7 +233,7 @@ OpenLayers control styles overwrites style.css (default ol style sheet)*/
 	top: 5px;
 	left: 29px;
 	position: absolute;
-	background: url('resources/full-extent.png');
+	background: url('full-extent.png');
 	width: 24px;
 	height: 22px;
 }
@@ -278,7 +278,7 @@ OpenLayers control styles overwrites style.css (default ol style sheet)*/
     right: 0px;
     top: 10px;
     cursor: pointer;
-    background: url('resources/minus.png');
+    background: url('minus.png');
     background-color: none;
 }
 .olControlOverviewMapMinimizeButton > img {
@@ -291,7 +291,7 @@ OpenLayers control styles overwrites style.css (default ol style sheet)*/
     right: 0;
     top: 10px;
     cursor: pointer;
-    background: url('resources/plus.png');
+    background: url('plus.png');
     background-color: none;
 }
 .olControlOverviewMapMaximizeButton > img {
